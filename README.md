@@ -1,3 +1,4 @@
+
 # NaoCareTranslate: AI-Powered Healthcare Translation App
 
 
@@ -36,6 +37,7 @@ I successfully implemented the initial version of NaoCareTranslate, ensuring sea
 - **Cutting-Edge Technology Enhancements:** Leverage top-tier AI advancements to make NaoCareTranslate a world-class application in medical translation.
 
 NaoCareTranslate is set to revolutionize healthcare communication with AI, improving accessibility and patient outcomes in multilingual settings.
+After this, I will be open to feedback and suggestions. Feel free to check out the app here: [NaoCareTranslate](https://v0-healthcare-translation-app.vercel.app/)
 
 
 ### NaoCareTranslate: Code Structure, AI Tools, and User Guide
