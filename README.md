@@ -1,5 +1,44 @@
-### NaoCareTranslate: Code Structure, AI Tools, and User Guide
+# NaoCareTranslate: AI-Powered Healthcare Translation App
 
+
+## Overview
+NaoCareTranslate is a real-time healthcare translation web application leveraging AI to bridge language barriers between patients and medical professionals. The app integrates advanced speech-to-text, machine translation, and text-to-speech technologies, ensuring accurate and efficient multilingual communication.
+
+## Features
+- **Real-Time Translation:** Converts spoken language into text, translates it, and provides audio playback.
+- **Multi-API Integration:** Utilizes Deepgram for speech-to-text, OpenAI for medical-grade translations, and ElevenLabs for realistic speech synthesis.
+- **Customizable User Experience:** Supports theme toggling, API key configuration, and translation history management.
+- **Human Interpreter Request:** Allows users to schedule professional interpreters when needed.
+- **Enhanced Security & Privacy:** No permanent audio storage, user-controlled API keys, and browser-stored translation history.
+
+## Code Structure
+- **Main Application:** Manages core translation functions, UI states, and theme settings.
+- **API Routes:**
+  - `/api/speech-to-text`: Handles audio processing with Deepgram.
+  - `/api/translate`: Manages translation requests using OpenAI.
+  - `/api/text-to-speech`: Converts translated text into speech via ElevenLabs.
+- **Settings Page:** Enables API key input, theme customization, and history clearing.
+- **Interpreter Request Page:** Facilitates booking human interpreters for medical appointments.
+- **UI Components:** Designed with shadcn/ui for a cohesive and user-friendly interface.
+
+## AI Tool Integration
+1. **Deepgram** - Transcribes audio input into text.
+2. **OpenAI (GPT-4o)** - Accurately translates medical text while preserving terminology.
+3. **ElevenLabs** - Converts translated text into natural-sounding speech.
+
+## Execution & Future Enhancements
+I successfully implemented the initial version of NaoCareTranslate, ensuring seamless integration of AI-driven speech translation. Moving forward, I will:
+- **Enhance Performance & Scalability:** Implement FastAPI for efficient API handling.
+- **Database Integration:** Store translation history and user preferences securely.
+- **Expanded Language Support:** Improve accuracy for diverse medical contexts.
+- **Optimized UI & UX:** Refine user interactions for a smoother experience.
+- **Advanced Medical Terminology Integration:** Incorporate specialized medical terms and domain-specific translations for better accuracy and usability.
+- **Cutting-Edge Technology Enhancements:** Leverage top-tier AI advancements to make NaoCareTranslate a world-class application in medical translation.
+
+NaoCareTranslate is set to revolutionize healthcare communication with AI, improving accessibility and patient outcomes in multilingual settings.
+
+
+### NaoCareTranslate: Code Structure, AI Tools, and User Guide
 ## Code Structure Highlights
 
 ### Core Components
