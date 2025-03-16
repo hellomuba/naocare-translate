@@ -1,4 +1,4 @@
-Thought for 1 second### NaoCareTranslate: Code Structure, AI Tools, and User Guide
+### NaoCareTranslate: Code Structure, AI Tools, and User Guide
 
 ## Code Structure Highlights
 
